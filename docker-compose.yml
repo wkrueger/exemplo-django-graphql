@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  djtest-postgres:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - "djtest-pg:/var/lib/postgresql/data"
+
+volumes:
+  djtest-pg:
