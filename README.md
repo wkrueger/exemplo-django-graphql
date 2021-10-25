@@ -41,7 +41,7 @@ A estrutura do django é um tanto incomum, temos uma pasta com a raiz de configu
 
 ## Diferenciais
 
-A framework é muito completa... assim pra caralho
+A framework é muito completa para criar CRUDs com pouco código.
 
   - No django você cria apenas os modelos (via classes) e ele cria as migrações pra você. Poucos ORMs fazem isso;
     - `python manage.py makemigrations` e `python manage.py migrate`
